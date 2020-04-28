@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Xena Events</title>
+<center>
+<img src="xena.jpg" alt="logo"></img><br>
+<font face="Georgia" size=+5>Xena Events</font><br><br>
+</head>
+<body>
+<div>
+<font face="Comic Sans MS" size=+2 color="red">
+Hot Baloon Riding Event<br>
+Feb 28<sup>th</sup> onwards for 5 days</font><br><br>
+</div>
+<div>
+<font face="Comic Sans MS" size=+2>REGISTRATION</font><br><br>
+(<font color="red">*</font>)All fields are mandatory<br><br>
+<form action=# method=POST>
+Name:(<font color="red">*</font>)<input type="text" name="name" placeholder="Enter your Name" required="Enter your name"><br><br>
+Age:(<font color="red">*</font>)
+<input type="number" name="age" min=18 placeholder="Enter your Age" required="Age should be 18 or greater than 18"><br><br>
+Email ID:(<font color="red">*</font>)<input type="text" name="emid" placeholder="Enter Email id"  pattern=".+@" required="Enter valid email id"><br><br>
+City:(<font color="red">*</font>)<select id="city" required>
+<option value="">--SELECT--</option>
+ <option value="Rajkot">Rajkot</option>
+<option value="Vizag">Vizag</option>
+<option value="Banglore">Banglore</option>
+</select>
+<input type="submit" name="sub" value="submit">
+</form>
+</html>
